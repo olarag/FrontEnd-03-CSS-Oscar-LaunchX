@@ -1,0 +1,88 @@
+/* header */
+header {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.m01{
+    height: 95px;
+    width: 1024px;
+    background: #fff;
+}
+
+.logo{
+    height: 95px;
+    width: 300px;
+    color: #2e4fd1;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    padding-top: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-left: 9px;
+    float: left;
+}
+
+nav{
+    height: 95px;
+    width: 645px;
+    color: #74849a;
+    opacity: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 15px;
+
+    padding-left: 43px;
+    float: right;
+    margin-right: 70px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 .95rem;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #74849a;
+}
+
+nav ul li:nth-child(1n+1) {
+    padding-left: 7px;
+}
+
+nav ul li:first-child {
+    background:none;
+    padding-left: 0px;
+}
+
+.botonNav{
+    height: 38px;
+    width: 120px;
+    background: #3151cf;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+    -webkit-box-shadow: 10px 10px 62px 2px #c9d7ed;
+    -moz-box-shadow: 10px 10px 62px 2px #c9d7ed;
+    box-shadow: 10px 10px 62px 2px #c9d7ed;
+}
